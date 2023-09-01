@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\Libraries\CMSIS\Include -I ..\..\Drivers\Libraries\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\Libraries\STM32F1xx_HAL_Driver\Inc -I ..\..\Drivers\Libraries\STM32F1xx_HAL_Driver\Inc\Legacy -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User
+-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+-D__UVISION_VERSION="535" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o ..\..\output\spi.o --omf_browse ..\..\output\spi.crf --depend ..\..\output\spi.d "..\..\Drivers\BSP\src\spi.c"
